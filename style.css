@@ -98,6 +98,8 @@ body {
     background: #333;
 }
 
+
+
 @media only screen and (max-width: 549px) {
     .container {
         width: 88vw;
@@ -115,7 +117,7 @@ body {
     a:hover,
     a:focus,
     a:active {
-        text-decoration: none;
-        color: inherit;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
     }
 }
