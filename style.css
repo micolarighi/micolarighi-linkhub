@@ -101,5 +101,21 @@ body {
 @media only screen and (max-width: 549px) {
     .container {
         width: 88vw;
+        margin-top: 40px;
+    }
+
+    .head__section p {
+        text-align: center;
+        color: #fff;
+        margin: 30px;
+        font-size: 1.2rem;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: inherit;
     }
 }
