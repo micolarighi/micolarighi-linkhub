@@ -73,6 +73,7 @@ body {
     line-height: 4rem;
     font-size: 1.8rem;
     margin-right: 24px;
+    margin-left: 8px;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
     transform: scale(1.4) translateZ(50px);
     transition: 0.25s;
