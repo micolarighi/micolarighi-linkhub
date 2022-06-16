@@ -16,7 +16,7 @@ body {
     display: grid;
     place-items: center;
     background-image: url('./bg.jpg');
-    background-color: #000000cb;
+    background-color: #000000e1;
     background-size: cover;
     background-blend-mode: darken;
     font-family: 'Nunito', sans-serif;
