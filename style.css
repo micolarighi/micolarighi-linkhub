@@ -15,10 +15,10 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-image: url('./bg.jpg');
+    background-image: url('./bg.png');
     background-color: #000000e1;
+    backdrop-filter: blur(20px);
     background-size: cover;
-    background-blend-mode: darken;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -51,13 +51,13 @@ body {
     backdrop-filter: blur(0px);
     border-radius: 5px;
     transition: background 0.25s;
-    transform-style: preserve-3d;
     perspective: 500px;
     box-shadow: 0 0 0.8rem rgba(255, 255, 255, .12);
 }
 
 .js-tilt-glare {
     border-radius: 5px;
+    
 }
 
 .social__links ul li a {
@@ -81,6 +81,7 @@ body {
 
 .social__links ul li a span {
     line-height: 1.4rem;
+    
 }
 
 .social__links ul .instagram:hover {
